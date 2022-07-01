@@ -36,29 +36,34 @@
           >
         </v-card-actions>
         <v-divider class="my-3"></v-divider>
+        <v-card-actions class="text-center">
         <v-btn
-            class="login-button my-2 pa-2"
+            class="login-button my-2 pa-5"
             width="100%"
             @click="githubLogin"
             depressed
             large
+            color="primary"
         >
         <v-icon large>
             mdi-github
         </v-icon>&nbsp;Login with Github
         </v-btn>
-        <v-btn
-            class="login-button my-2 pa-2"
+        </v-card-actions>
+        <v-card-actions class="text-center">
+            <v-btn
+            class="login-button mb-2 px-16"
             width="100%"
             @click="googleLogin"
             depressed
             large
+            color="primary"
         >
         <v-icon large>
             mdi-google
         </v-icon>&nbsp;Login with Google
         </v-btn>
-        
+        </v-card-actions>
       </v-card>
       <v-snackbar
         :timeout="4000"
