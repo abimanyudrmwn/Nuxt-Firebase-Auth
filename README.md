@@ -1,7 +1,8 @@
 
 # Nuxt Firebase Auth
 ![Proof](https://i.ibb.co/C2WrdG9/belajar.png)
-Email & Password Authentication
+
+> Email & Password Authentication
 
 ## Build Setup
 
